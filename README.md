@@ -2,7 +2,7 @@
 
 A portfolio webpage used to showcase various projects.
 
-live link here: ![portfolio](https://mkalik.github.io/)
+live link here: [portfolio](https://mkalik.github.io/)
 
 ## 1.Installation:
     
