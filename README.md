@@ -3,6 +3,7 @@
 A portfolio webpage used to showcase various projects.
 
 live link here: [portfolio](https://mkalik.github.io/)
+![check it out!](assets/images/preview_port.png)
 
 ## 1.Installation:
     
