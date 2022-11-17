@@ -92,10 +92,10 @@ section.sidebar h2{
     height:100%;
     display:block;
 }
-.content div{
+div.image_overlay{
     opacity: 0.9;
 }
-.content div:hover{
+div.image_overlay:hover{
     opacity: 1.0;
     border-color:#348052;
 
