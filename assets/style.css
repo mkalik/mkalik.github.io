@@ -1,23 +1,15 @@
+/* I feel there is a bit of redundancy sprinkled in here and there so I will definitely continue to tinker moving forward*/
 * {
-    font-family: Times, "Times New Roman", Georgia, sans-serif;
-    color: #f5fffa;
+    /* specifies font for the whole page */
+    font-family: Times, "Times New Roman", Georgia, sans-serif; 
 }
 body {
+    /* determines font size for body elements as well as provides a background color plus some spacing */
     font-size:16px;
     background:#1b423a;
     padding-top:10px;
 }
-footer {
-    text-align:center; 
-    font-size: 10px;
-    background-color:#1a2b2a;
-    display: block;
-    width:15%;
-    justify-content:center;
-    margin:auto;
-    border-radius:15px;
-    opacity: 0.5;
-}
+/* all of the header selectors manipulate elements within the header */
 header {
     border-radius:15px 15px 0px 0px;
     background-color:#1a2b2a;
@@ -25,7 +17,7 @@ header {
 }
 header h1{
     display:inline-block;
-    color:#f5fffa;
+    color:#fff;
     font-size: 36px;
     justify-content:center;
     margin-left:25px;
@@ -34,7 +26,7 @@ header h1{
 header ul {
     list-style-type:none;
     font-size: 20px;
-    color:#f5fffa;
+    color:#fff;
     float:right;
     text-decoration:none;
     padding-top:20px;
@@ -47,14 +39,16 @@ header ul li{
     margin-left:15px;
 }
 a {
+    /* styles the links in the header. While not specific to the header, links only show up there so theres no issue */
     text-decoration:none;
-    color: #f5fffa;
+    color:#fff;
 }
 section {
     display:block;
 }
 
 section.background {
+    /* this manipulates the image under the header. */ 
     background: url("images/greentrees.png");
     background-size:cover;
     background-position:center;
@@ -64,18 +58,21 @@ section.background {
 } 
 
 section.sidebar section{
+    /* this portion manipulates the labels to the far left of the body. */ 
     display:flex;
     position:relative;
 
 }
 
 section.sidebar h2{
+    /* manipulates the elements within the sidebar section(section to the far left) */
     padding-top:15px;
     align-items:start;
     clear:both;
-    text-align:right;
+    text-align:right; 
     float:left;
     min-width:15%;
+    color:#fff;
     background-color:#1a2b2a;
     padding:20px;
     border-radius:15px;
@@ -84,6 +81,7 @@ section.sidebar h2{
 }
 
 .content img{ 
+    /* manipulates the images that show up in the project portion of the body */
     justify-content: center;
     opacity:0.75;
     border-radius:15px;
@@ -91,16 +89,18 @@ section.sidebar h2{
     height:100%;
     display:block;
 }
-div{
-    opacity: 0.85;
+/* the following two selectors manipulate the image when a user hovers over it */
+.content div{
+    opacity: 0.9;
 }
-div:hover{
+.content div:hover{
     opacity: 1.0;
-    border-color:#348052;
-
+    border-color:#348052; /*have an issue here as when i load the html from my computer, the border color actually changes when hovered over */
+                          /*however on the live site, this method seems to automatically run regardless of cursor position */
 }
 
 .content{
+    /* this manipulates the containers that actually hold the about me, project, and contact information */
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,10 +112,11 @@ div:hover{
     border-style:solid;
     border-width:2px;
     border-color:#2b6045;
-    color: #f5fffa;
+    color:#fffaf0 ;
 }
 
 .image_main {
+    /* manipulates the main project image */
     justify-content: center;
     position:relative;
     font-size:35px;
@@ -128,6 +129,7 @@ div:hover{
 }
 
 .image_content{
+    /* manipulates the images that follow the main image */
     display:block;
     position: relative;
     font-size: 20px;
@@ -140,8 +142,9 @@ div:hover{
 }
 
 .image_overlay h3 {
+    /* manipulates the overlay for images */
     display:flex;
-    color: #f5fffa;
+    color: #fff;
     position: absolute;
     background-color: #2b6045;
     padding:10px;
@@ -154,3 +157,16 @@ div:hover{
     
 }
 
+footer { 
+    /* orients and styles the footer element */
+    text-align:center; 
+    font-size: 10px;
+    color: #fff;
+    background-color:#1a2b2a;
+    display: block;
+    width:15%;
+    justify-content:center;
+    margin:auto;
+    border-radius:15px;
+    opacity: 0.5;
+}
