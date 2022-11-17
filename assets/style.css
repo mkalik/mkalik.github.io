@@ -92,10 +92,11 @@ section.sidebar h2{
     height:100%;
     display:block;
 }
-div.image_overlay{
-    opacity: 0.9;
+.content div.image_overlay{
+    opacity: 0.85;
+    border-color: #245146;
 }
-div.image_overlay:hover{
+.content div.image_overlay:hover{
     opacity: 1.0;
     border-color:#348052;
 
@@ -113,7 +114,7 @@ div.image_overlay:hover{
     border-style:solid;
     border-width:2px;
     border-color:#2b6045;
-    color:#fffaf0 ;
+    color: #fff;
 }
 
 .image_main {
