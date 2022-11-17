@@ -1,5 +1,6 @@
 * {
     font-family: Times, "Times New Roman", Georgia, sans-serif;
+    color: #f5fffa;
 }
 body {
     font-size:16px;
@@ -9,7 +10,6 @@ body {
 footer {
     text-align:center; 
     font-size: 10px;
-    color: #fff;
     background-color:#1a2b2a;
     display: block;
     width:15%;
@@ -25,7 +25,7 @@ header {
 }
 header h1{
     display:inline-block;
-    color:#fff;
+    color:#f5fffa;
     font-size: 36px;
     justify-content:center;
     margin-left:25px;
@@ -34,7 +34,7 @@ header h1{
 header ul {
     list-style-type:none;
     font-size: 20px;
-    color:#fff;
+    color:#f5fffa;
     float:right;
     text-decoration:none;
     padding-top:20px;
@@ -48,7 +48,6 @@ header ul li{
 }
 a {
     text-decoration:none;
-    color:#fff;
 }
 section {
     display:block;
@@ -76,7 +75,6 @@ section.sidebar h2{
     text-align:right;
     float:left;
     min-width:15%;
-    color:#fff;
     background-color:#1a2b2a;
     padding:20px;
     border-radius:15px;
@@ -92,11 +90,10 @@ section.sidebar h2{
     height:100%;
     display:block;
 }
-.content div.image_overlay{
+div{
     opacity: 0.85;
-    border-color: #245146;
 }
-.content div.image_overlay:hover{
+div:hover{
     opacity: 1.0;
     border-color:#348052;
 
@@ -114,7 +111,7 @@ section.sidebar h2{
     border-style:solid;
     border-width:2px;
     border-color:#2b6045;
-    color: #fff;
+    color: #f5fffa;
 }
 
 .image_main {
@@ -143,7 +140,7 @@ section.sidebar h2{
 
 .image_overlay h3 {
     display:flex;
-    color: #fff;
+    color: #f5fffa;
     position: absolute;
     background-color: #2b6045;
     padding:10px;
