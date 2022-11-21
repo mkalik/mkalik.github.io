@@ -95,8 +95,7 @@ section.sidebar h2{
 }
 .content div:hover{
     opacity: 1.0;
-    border-color:#348052; /*have an issue here as when i load the html from my computer, the border color actually changes when hovered over */
-                          /*however on the live site, this method seems to automatically run regardless of cursor position */
+    border-color:#348052; 
 }
 
 .content{
